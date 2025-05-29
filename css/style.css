@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #000;
+}
+body{
+    background-color: #273825;
+
+}
+.main{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    color:  rgb(122, 133, 118);
+    padding: 20px;
+    h1{
+    font-size: 60px;
+    font-weight: bold;
+    }
+}
+.title{
+    font-family: "Times New Roman", Times, serif;
+    p{
+        font-size: 25px;
+        color:  rgb(122, 133, 118);
+    }
+}
+.click button{
+    background-color:  rgb(122, 133, 118);
+    border: 0;
+    padding: 20px 40px;
+    color: white;
+    
+    &:hover{
+        background-color: white;
+        color:  rgb(122, 133, 118);;
+    }
+}
+
+.qoutaya{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    p{
+        color:  rgb(122, 133, 118);
+    }
+
+}
+
+@media (min-width: 640px){
+    .title{
+    p{
+        font-size: 35px;
+    }
+    }
+.click button{
+    padding: 12px 40px;
+    }
+.Qoutea{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 50px;
+    background-color: rgb(122, 133, 118);
+
+}
+.main{
+    color: #273825;
+    padding: 0;
+    h1{
+    font-size: 80px;
+    }
+}
+.click button{
+    background-color: #273825;
+    border: 0;
+    padding: 20px 40px;
+    color: white;
+    
+    &:hover{
+        background-color: white;
+        color: #273825;
+    }
+}
+.title{
+    font-family: "Times New Roman", Times, serif;
+    p{
+        font-size: 25px;
+        color:  #273825;
+    }
+}
+.qoutaya{
+    padding: 0 30px;
+    p{
+        color: #273825;
+
+    }
+
+}
+}
+
+/* medium devices */
+@media (min-width: 768px){
+    
+}
+/* large devices */
+@media (min-width: 1024px){
+    
+}
+/* extra large devices */
+@media (min-width: 1280px){
+
+}
+/* extra extra large devices */
+@media (min-width: 1536px){
+
+}
